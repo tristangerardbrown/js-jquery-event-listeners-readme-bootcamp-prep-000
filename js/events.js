@@ -7,13 +7,13 @@ $(document).ready(function(){
       alert("Hey!");
     })
   }
-  
+
   function frameIt() {
     $('img').on("load", function() {
       $('img').addClass("tasty");
     })
   }
-  
+
   function pressIt() {
     $('#typing').on("keydown", function(press) {
       if (press.which === 71) {
@@ -21,7 +21,7 @@ $(document).ready(function(){
       }
     })
   }
-  
+
   function submitIt() {
     $('form').on("submit", function() {
       alert("Your form is going to be submitted now.");
